@@ -2,8 +2,10 @@
 public class Adios {
 
 	public static void main(String[] args) {
-		System.out.println("Adios Mundo");
-		System.out.println("Harder, Better, Faster, Stronger");
+		String amarillo = "\033[33m";
+		String verde = "\033[32m";
+			System.out.println(amarillo + "¡Adios mundo!");
+			System.out.println(verde + "Pero... volveré");
 	}
 
 }
